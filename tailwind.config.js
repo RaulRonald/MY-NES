@@ -1,0 +1,28 @@
+// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+            keyframes: {
+        'pulse-grow': {
+          '0%': { transform: 'scale(1)' },
+          '25%': { transform: 'scale(1.3)' },
+          '50%': { transform: 'scale(1.1)' },
+          '75%': { transform: 'scale(1.2)' },
+          '100%': { transform: 'scale(1.1)' },
+        }
+      },
+      animation: {
+        'pulse-grow': 'pulse-grow 0.5s forwards',
+      },
+      fontFamily: {
+        'press-start': ['"Press Start 2P"', 'cursive'],
+      },
+    },
+  },
+  plugins: [],
+}
