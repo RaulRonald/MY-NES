@@ -1,8 +1,10 @@
 import NavBar from "../components/NavBar/NavBar";
+import Content from "../components/Content/Content";
 function HomePage() {
   return (
-    <div className="bg-red-900">
+    <div className="bg-black">
       <NavBar></NavBar>
+      <Content></Content>
     </div>
   );
 }

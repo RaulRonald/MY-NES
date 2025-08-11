@@ -4,7 +4,7 @@ import NavLink from '../NavLink/NavLink';
 
 const NavLateral = ({toggleMenu, closeMenu }) => {
   return (
-    <div className="align-middle flex flex-col gap-3 p-2 bg-red-600 pr-5 pl-5 ml-auto nes-container max-h-screen overflow-y-auto">
+    <div className="z-50 h-screen align-middle flex flex-col gap-3 p-2 bg-red-600 pr-5 pl-5 ml-auto nes-container max-h-screen overflow-y-auto">
       <div className="flex nes-container">
         <span className=" text-2xl text-left m-5">
           NAV
@@ -24,7 +24,7 @@ const NavLateral = ({toggleMenu, closeMenu }) => {
             />
             <NavLink
                 caminho="/"
-                texto="Jogos" 
+                texto="Tutorials" 
                 closeMenu={closeMenu}
                 toggleMenu={toggleMenu}
             />

@@ -10,10 +10,8 @@ export default {
             keyframes: {
         'pulse-grow': {
           '0%': { transform: 'scale(1)' },
-          '25%': { transform: 'scale(1.3)' },
-          '50%': { transform: 'scale(1.1)' },
-          '75%': { transform: 'scale(1.2)' },
-          '100%': { transform: 'scale(1.1)' },
+          '50%': { transform: 'scale(0.9)' },
+          '100%': { transform: 'scale(1)' },
         }
       },
       animation: {
