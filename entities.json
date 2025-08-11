@@ -1,0 +1,70 @@
+[
+    {
+    "name": "Mario",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/7/7c/Smb1_mario.png"
+  },
+      {
+    "name": "Luigi",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/5/56/Smb1_luigi.png"
+  },
+      {
+    "name": "Princess\nToadstool",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/a/ad/Smb1_princess.png"
+  },
+      {
+    "name": "Mushroom\nretainers",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/b/bf/Smb1_toad.png"
+  },
+  {
+    "name": "Goomba",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/3/35/Smb1_goomba.png/98px-Smb1_goomba.png"
+  },
+  {
+    "name": "Koopa\nTroopa",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/0/06/Smb1_green_troopa.png/98px-Smb1_green_troopa.png"
+  },
+  {
+    "name": "Koopa\nPara\nTroopa",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/b/b4/Smb1_green_paratroopa.png/98px-Smb1_green_paratroopa.png"
+  },
+    {
+    "name": "Piranha\nPlant",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/3/35/Smb1_piranha_plant.png/98px-Smb1_piranha_plant.png"
+  },
+      {
+    "name": "Lakitu",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/6/6f/Smb1_lakitu.png/98px-Smb1_lakitu.png"
+  },
+      {
+    "name": "Spiny",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/e/e9/Smb1_spiney.png/98px-Smb1_spiney.png"
+  },
+      {
+    "name": "Cheep-\nCheep",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/4/49/Smb1_green_cheep-cheep.png/98px-Smb1_green_cheep-cheep.png"
+  },
+      {
+    "name": "Blooper",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/c/c1/Smb1_blooper.png/98px-Smb1_blooper.png"
+  },
+      {
+    "name": "Bullet\nBill",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/9/90/Smb1_bullet_bill.png/98px-Smb1_bullet_bill.png"
+  },
+        {
+    "name": "Buzzy\nBeetle",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/9/9c/Smb1_buzzy_beetle.png/98px-Smb1_buzzy_beetle.png"
+  },
+          {
+    "name": "Hammer\nBrothers",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/6/63/Smb1_hammer_bros.png/98px-Smb1_hammer_bros.png"
+  },
+          {
+    "name": "Podoboo",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/thumb/9/98/Smb1_podoboo.png/93px-Smb1_podoboo.png"
+  },
+          {
+    "name": "Bowser",
+    "link": "https://cdn.wikimg.net/en/strategywiki/images/7/78/Smb1_bowser.png"
+  }
+]
