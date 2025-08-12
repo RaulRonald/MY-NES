@@ -1,0 +1,48 @@
+/* Animação para o movimento curvo da estrela através da tela */
+@keyframes move-across-screen {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(calc(50vw - 50%), calc(30vh - 50%)) rotate(90deg);
+  }
+  50% {
+    transform: translate(calc(100vw - 100%), 0) rotate(180deg);
+  }
+  75% {
+    transform: translate(calc(50vw - 50%), calc(-30vh + 50%)) rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+/* Animação para o pisca-pisca colorido */
+@keyframes color-blink {
+  0% { filter: hue-rotate(0deg) drop-shadow(0 0 10px #fff); }
+  25% { filter: hue-rotate(90deg) drop-shadow(0 0 15px #ff0); }
+  50% { filter: hue-rotate(180deg) drop-shadow(0 0 10px #0ff); }
+  75% { filter: hue-rotate(270deg) drop-shadow(0 0 15px #f0f); }
+  100% { filter: hue-rotate(360deg) drop-shadow(0 0 10px #fff); }
+}
+
+/* O container que controla o movimento */
+.starContainer {
+  position: absolute;
+  top: 50%; /* Começa no meio da tela verticalmente */
+  left: 0;
+  z-index: 100;
+  /* Aplica a animação de movimento que dura 15 segundos e se repete */
+  animation: move-across-screen 15s linear infinite;
+}
+
+/* O botão que contém a imagem */
+.starButton {
+  /* Aplica a animação de pisca-pisca que dura 1 segundo e se repete */
+  animation: color-blink 1s steps(1, end) infinite;
+  transition: transform 0.2s ease-out;
+}
+
+.starButton:hover {
+  transform: scale(1.5); /* Aumenta de tamanho no hover para facilitar o clique */
+}

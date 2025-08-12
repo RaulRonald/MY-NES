@@ -9,7 +9,7 @@ const QuizSlider = () => {
 
 
   useEffect(() => {
-    fetch('/quiz.json')
+    fetch(`${import.meta.env.BASE_URL}quiz.json`)
       .then(res => res.json())
       .then(data => {
         setQuizData(data);

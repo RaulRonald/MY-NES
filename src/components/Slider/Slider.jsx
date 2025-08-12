@@ -3,7 +3,7 @@ import GameCard from "../GameCard/GameCard";
 
 const Slider = ({ gamesInfos }) => {
   const [index, setIndex] = useState(0);
-  const intervalRef = useRef(null); // 
+  const intervalRef = useRef(null); 
 
   useEffect(() => {
    
