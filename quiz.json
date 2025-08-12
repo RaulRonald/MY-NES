@@ -1,0 +1,402 @@
+[
+{
+"id": 1,
+"question": "Who is the main protagonist of the original Super Mario Bros. for NES?",
+"options": [
+{ "id": "A", "text": "Luigi", "correct": false },
+{ "id": "B", "text": "Mario", "correct": true },
+{ "id": "C", "text": "Toad", "correct": false },
+{ "id": "D", "text": "Bowser", "correct": false }
+]
+},
+{
+"id": 2,
+"question": "Which company developed the original Super Mario Bros. for the NES?",
+"options": [
+{ "id": "A", "text": "Capcom", "correct": false },
+{ "id": "B", "text": "Sega", "correct": false },
+{ "id": "C", "text": "Nintendo", "correct": true },
+{ "id": "D", "text": "Konami", "correct": false }
+]
+},
+{
+"id": 3,
+"question": "What is the name of Mario's brother in the game?",
+"options": [
+{ "id": "A", "text": "Wario", "correct": false },
+{ "id": "B", "text": "Toad", "correct": false },
+{ "id": "C", "text": "Luigi", "correct": true },
+{ "id": "D", "text": "Yoshi", "correct": false }
+]
+},
+{
+"id": 4,
+"question": "What name does the original NES release use for the princess Mario is trying to save?",
+"options": [
+{ "id": "A", "text": "Princess Daisy", "correct": false },
+{ "id": "B", "text": "Princess Peach / Toadstool", "correct": true },
+{ "id": "C", "text": "Princess Rosalina", "correct": false },
+{ "id": "D", "text": "Queen Bowserina", "correct": false }
+]
+},
+{
+"id": 5,
+"question": "Which power-up makes Mario grow from small to 'Super Mario'?",
+"options": [
+{ "id": "A", "text": "Fire Flower", "correct": false },
+{ "id": "B", "text": "Starman", "correct": false },
+{ "id": "C", "text": "Super Mushroom", "correct": true },
+{ "id": "D", "text": "1-Up Mushroom", "correct": false }
+]
+},
+{
+"id": 6,
+"question": "Which power-up allows Mario to throw fireballs?",
+"options": [
+{ "id": "A", "text": "Super Leaf", "correct": false },
+{ "id": "B", "text": "Fire Flower", "correct": true },
+{ "id": "C", "text": "Starman", "correct": false },
+{ "id": "D", "text": "Mega Mushroom", "correct": false }
+]
+},
+{
+"id": 7,
+"question": "What is the name of the invincibility item that makes Mario temporarily immune to enemies?",
+"options": [
+{ "id": "A", "text": "Starman (Star)", "correct": true },
+{ "id": "B", "text": "Poison Mushroom", "correct": false },
+{ "id": "C", "text": "Feather", "correct": false },
+{ "id": "D", "text": "Cape", "correct": false }
+]
+},
+{
+"id": 8,
+"question": "Which of these is the first playable level in Super Mario Bros. (the famous opening stage)?",
+"options": [
+{ "id": "A", "text": "World 1-1", "correct": true },
+{ "id": "B", "text": "World 1-3", "correct": false },
+{ "id": "C", "text": "World 2-1", "correct": false },
+{ "id": "D", "text": "World 8-4", "correct": false }
+]
+},
+{
+"id": 9,
+"question": "Which common enemy is the small, brown mushroom-shaped creature you stomp on?",
+"options": [
+{ "id": "A", "text": "Koopa Troopa", "correct": false },
+{ "id": "B", "text": "Goomba", "correct": true },
+{ "id": "C", "text": "Shy Guy", "correct": false },
+{ "id": "D", "text": "Piranha Plant", "correct": false }
+]
+},
+{
+"id": 10,
+"question": "Which enemy retreats into a shell that Mario can kick or pick up?",
+"options": [
+{ "id": "A", "text": "Piranha Plant", "correct": false },
+{ "id": "B", "text": "Buzzy Beetle", "correct": false },
+{ "id": "C", "text": "Koopa Troopa", "correct": true },
+{ "id": "D", "text": "Blooper", "correct": false }
+]
+},
+{
+"id": 11,
+"question": "Which enemy throws hammers at Mario in certain fortress levels?",
+"options": [
+{ "id": "A", "text": "Hammer Bros.", "correct": true },
+{ "id": "B", "text": "Lakitu", "correct": false },
+{ "id": "C", "text": "Boo", "correct": false },
+{ "id": "D", "text": "Cheep Cheep", "correct": false }
+]
+},
+{
+"id": 12,
+"question": "Which floating enemy rides on a cloud and drops Spinies down at Mario?",
+"options": [
+{ "id": "A", "text": "Lakitu", "correct": true },
+{ "id": "B", "text": "Hammer Bro.", "correct": false },
+{ "id": "C", "text": "Bowser Jr.", "correct": false },
+{ "id": "D", "text": "Wiggler", "correct": false }
+]
+},
+{
+"id": 13,
+"question": "What happens when Mario collects 100 coins in the game?",
+"options": [
+{ "id": "A", "text": "He gets a temporary shield", "correct": false },
+{ "id": "B", "text": "He earns an extra life", "correct": true },
+{ "id": "C", "text": "He becomes invincible", "correct": false },
+{ "id": "D", "text": "He unlocks a secret level", "correct": false }
+]
+},
+{
+"id": 14,
+"question": "Which block is commonly marked with a question mark and often contains coins or power-ups?",
+"options": [
+{ "id": "A", "text": "Brick Block", "correct": false },
+{ "id": "B", "text": "Note Block", "correct": false },
+{ "id": "C", "text": "Question Block", "correct": true },
+{ "id": "D", "text": "Hidden Block", "correct": false }
+]
+},
+{
+"id": 15,
+"question": "Which button on the NES controller is typically used to make Mario jump?",
+"options": [
+{ "id": "A", "text": "Start", "correct": false },
+{ "id": "B", "text": "Select", "correct": false },
+{ "id": "C", "text": "A button", "correct": true },
+{ "id": "D", "text": "B button", "correct": false }
+]
+},
+{
+"id": 16,
+"question": "Which button on the NES controller is commonly used to run or, when powered, throw fireballs?",
+"options": [
+{ "id": "A", "text": "A button", "correct": false },
+{ "id": "B", "text": "Select button", "correct": false },
+{ "id": "C", "text": "Start button", "correct": false },
+{ "id": "D", "text": "B button", "correct": true }
+]
+},
+{
+"id": 17,
+"question": "How many players can play Super Mario Bros. on the NES (alternating turns)?",
+"options": [
+{ "id": "A", "text": "1 player only", "correct": false },
+{ "id": "B", "text": "2 players (alternating)", "correct": true },
+{ "id": "C", "text": "4 players", "correct": false },
+{ "id": "D", "text": "Multiplayer online", "correct": false }
+]
+},
+{
+"id": 18,
+"question": "Who composed the iconic music for Super Mario Bros.?",
+"options": [
+{ "id": "A", "text": "Nobuo Uematsu", "correct": false },
+{ "id": "B", "text": "Koji Kondo", "correct": true },
+{ "id": "C", "text": "Yoko Shimomura", "correct": false },
+{ "id": "D", "text": "Hirokazu Tanaka", "correct": false }
+]
+},
+{
+"id": 19,
+"question": "What is the main goal/objective at the end of most levels?",
+"options": [
+{ "id": "A", "text": "Defeat a mini-boss", "correct": false },
+{ "id": "B", "text": "Reach the flagpole", "correct": true },
+{ "id": "C", "text": "Collect 50 coins", "correct": false },
+{ "id": "D", "text": "Find Yoshi", "correct": false }
+]
+},
+{
+"id": 20,
+"question": "Which item directly gives Mario an extra life when collected?",
+"options": [
+{ "id": "A", "text": "Fire Flower", "correct": false },
+{ "id": "B", "text": "Starman", "correct": false },
+{ "id": "C", "text": "1-Up Mushroom", "correct": true },
+{ "id": "D", "text": "Mega Mushroom", "correct": false }
+]
+},
+{
+"id": 21,
+"question": "Which famous hidden area allows players to skip ahead to later worlds?",
+"options": [
+{ "id": "A", "text": "Minus World", "correct": false },
+{ "id": "B", "text": "Warp Zone", "correct": true },
+{ "id": "C", "text": "Star Road", "correct": false },
+{ "id": "D", "text": "Mystery House", "correct": false }
+]
+},
+{
+"id": 22,
+"question": "From the earliest Warp Zone found in World 1-2, which worlds can you warp directly to?",
+"options": [
+{ "id": "A", "text": "Worlds 2, 3 and 4", "correct": true },
+{ "id": "B", "text": "Worlds 5, 6 and 7", "correct": false },
+{ "id": "C", "text": "Only World 8", "correct": false },
+{ "id": "D", "text": "No warps available", "correct": false }
+]
+},
+{
+"id": 23,
+"question": "What is the common name for Bowser in the original western manuals?",
+"options": [
+{ "id": "A", "text": "King Koopa", "correct": true },
+{ "id": "B", "text": "Lord Bowser", "correct": false },
+{ "id": "C", "text": "Evil Luigi", "correct": false },
+{ "id": "D", "text": "Ganon", "correct": false }
+]
+},
+{
+"id": 24,
+"question": "Which of these enemies is immune to fireballs in the original Super Mario Bros.?",
+"options": [
+{ "id": "A", "text": "Goomba", "correct": false },
+{ "id": "B", "text": "Spiny", "correct": true },
+{ "id": "C", "text": "Koopa Troopa (walking)", "correct": false },
+{ "id": "D", "text": "Hammer Bro.", "correct": false }
+]
+},
+{
+"id": 25,
+"question": "How do you defeat Bowser in most early castle levels?",
+"options": [
+{ "id": "A", "text": "Throw a fireball until he dies", "correct": false },
+{ "id": "B", "text": "Hit the axe to cut the bridge so Bowser falls", "correct": true },
+{ "id": "C", "text": "Use a warp pipe to trap him", "correct": false },
+{ "id": "D", "text": "Collect all coins to make him disappear", "correct": false }
+]
+},
+{
+"id": 26,
+"question": "Which level introduces the underground theme where you can find secret areas (the famous early underground)?",
+"options": [
+{ "id": "A", "text": "World 1-1", "correct": false },
+{ "id": "B", "text": "World 1-2", "correct": true },
+{ "id": "C", "text": "World 2-1", "correct": false },
+{ "id": "D", "text": "World 8-4", "correct": false }
+]
+},
+{
+"id": 27,
+"question": "Which underwater enemy swims and attacks Mario in water levels?",
+"options": [
+{ "id": "A", "text": "Cheep Cheep", "correct": true },
+{ "id": "B", "text": "Goomba", "correct": false },
+{ "id": "C", "text": "Lakitu", "correct": false },
+{ "id": "D", "text": "Hammer Bro.", "correct": false }
+]
+},
+{
+"id": 28,
+"question": "Which glitch level is famously referred to as the 'Minus World' or 'World -1'?",
+"options": [
+{ "id": "A", "text": "A developer secret stage", "correct": false },
+{ "id": "B", "text": "An endless underwater level glitch", "correct": true },
+{ "id": "C", "text": "The final secret castle", "correct": false },
+{ "id": "D", "text": "World 9 in the map", "correct": false }
+]
+},
+{
+"id": 29,
+"question": "Which block type can be broken only when Mario is Super (big)?",
+"options": [
+{ "id": "A", "text": "Question Block", "correct": false },
+{ "id": "B", "text": "Hidden Block", "correct": false },
+{ "id": "C", "text": "Brick Block", "correct": true },
+{ "id": "D", "text": "Note Block", "correct": false }
+]
+},
+{
+"id": 30,
+"question": "When Mario is hit by an enemy while Super (big), what happens?",
+"options": [
+{ "id": "A", "text": "He dies instantly", "correct": false },
+{ "id": "B", "text": "He shrinks to small Mario", "correct": true },
+{ "id": "C", "text": "He becomes invincible", "correct": false },
+{ "id": "D", "text": "He loses all coins but stays big", "correct": false }
+]
+},
+{
+"id": 31,
+"question": "Which of these enemies is a ghost that covers its face when Mario looks at it?",
+"options": [
+{ "id": "A", "text": "Boo", "correct": true },
+{ "id": "B", "text": "Goomba", "correct": false },
+{ "id": "C", "text": "Koopa Troopa", "correct": false },
+{ "id": "D", "text": "Cheep Cheep", "correct": false }
+]
+},
+{
+"id": 32,
+"question": "Which famous composer created many of Nintendo's early tunes, including Super Mario Bros. music?",
+"options": [
+{ "id": "A", "text": "Koji Kondo", "correct": true },
+{ "id": "B", "text": "Kenji Yamamoto", "correct": false },
+{ "id": "C", "text": "Yasunori Mitsuda", "correct": false },
+{ "id": "D", "text": "Hajime Wakai", "correct": false }
+]
+},
+{
+"id": 33,
+"question": "What item typically appears when small Mario hits a brick block?",
+"options": [
+{ "id": "A", "text": "A laser gun", "correct": false },
+{ "id": "B", "text": "A coin", "correct": true },
+{ "id": "C", "text": "A mushroom that makes him shrink", "correct": false },
+{ "id": "D", "text": "A Starman that immediately ends the level", "correct": false }
+]
+},
+{
+"id": 34,
+"question": "Which enemy is a flying squid that appears in water levels?",
+"options": [
+{ "id": "A", "text": "Blooper", "correct": true },
+{ "id": "B", "text": "Monty Mole", "correct": false },
+{ "id": "C", "text": "Lakitu", "correct": false },
+{ "id": "D", "text": "Toad", "correct": false }
+]
+},
+{
+"id": 35,
+"question": "Which of these is an effective way to defeat many enemies without touching them directly?",
+"options": [
+{ "id": "A", "text": "Use the Fire Flower and throw fireballs", "correct": true },
+{ "id": "B", "text": "Collect 50 coins", "correct": false },
+{ "id": "C", "text": "Press Select repeatedly", "correct": false },
+{ "id": "D", "text": "Wait for a timer to end", "correct": false }
+]
+},
+{
+"id": 36,
+"question": "Which in-game object is used to reach higher places and sometimes contains 1-ups or power-ups?",
+"options": [
+{ "id": "A", "text": "P-switch", "correct": false },
+{ "id": "B", "text": " ? (Question) Block", "correct": true },
+{ "id": "C", "text": "Checkpoint flag", "correct": false },
+{ "id": "D", "text": "Warp pipe (always)", "correct": false }
+]
+},
+{
+"id": 37,
+"question": "Which enemy is famous for walking along the ground with a shell and being able to be used as a projectile when kicked?",
+"options": [
+{ "id": "A", "text": "Lakitu", "correct": false },
+{ "id": "B", "text": "Koopa Troopa", "correct": true },
+{ "id": "C", "text": "Buzzy Beetle", "correct": false },
+{ "id": "D", "text": "Toad", "correct": false }
+]
+},
+{
+"id": 38,
+"question": "What is the name of the final castle world where you face Bowser to rescue the princess?",
+"options": [
+{ "id": "A", "text": "World 8", "correct": true },
+{ "id": "B", "text": "World 4", "correct": false },
+{ "id": "C", "text": "World 2", "correct": false },
+{ "id": "D", "text": "Minus World", "correct": false }
+]
+},
+{
+"id": 39,
+"question": "Which technique is commonly used to skip part of a level by crouching in a pipe entrance (a well-known trick for speedrunners)?",
+"options": [
+{ "id": "A", "text": "Pipe clipping / glitch exploit", "correct": true },
+{ "id": "B", "text": "Double jump", "correct": false },
+{ "id": "C", "text": "Teleport block", "correct": false },
+{ "id": "D", "text": "Yoshi ride", "correct": false }
+]
+},
+{
+"id": 40,
+"question": "Which of the following is a famous early-game secret that allows quick progression to later worlds when found?",
+"options": [
+{ "id": "A", "text": "Star Road", "correct": false },
+{ "id": "B", "text": "Minus World", "correct": false },
+{ "id": "C", "text": "Warp Zone", "correct": true },
+{ "id": "D", "text": "Dragon Coin", "correct": false }
+]
+}
+]
