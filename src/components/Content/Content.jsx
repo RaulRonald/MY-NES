@@ -24,16 +24,16 @@ const Content = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/entities.json') 
-      .then((response) => response.json())
-      .then((data) => {
-        setGamesInfos(data);
-        setIsLoading(false); 
-      })
-      .catch((error) => {
-        console.error("Erro ao buscar os jogos:", error);
-        setIsLoading(false); 
-      });
+      fetch(`${import.meta.env.BASE_URL}entities.json`)
+    .then((response) => response.json())
+    .then((data) => {
+      setGamesInfos(data);
+      setIsLoading(false);
+    })
+    .catch((error) => {
+      console.error("Erro ao buscar os jogos:", error);
+      setIsLoading(false);
+    });
   }, []); 
 
   const featuredGame = getGameOfTheWeek(gamesInfos);
@@ -43,7 +43,8 @@ const Content = () => {
   }
 
   return (
-    <div className="flex flex-col mr-5 ml-5 mt-5 rounded-2xl border-4 border-gray-400 bg-white">
+    <div className="flex flex-col mr-1 ml-1 mt-2 rounded-2xl border-4 border-gray-400 bg-white">
+      <div className="flex lg:flex-row flex-col justify-center">
       <Slider gamesInfos={gamesInfos} />
       {featuredGame && (
         <WeekGame
@@ -51,6 +52,7 @@ const Content = () => {
           img={featuredGame.link}
         />
       )}
+      </div>
     </div>
   );
 };

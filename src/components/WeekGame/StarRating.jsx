@@ -1,16 +1,29 @@
 import { useState } from 'react';
 
-const StarRating = ({ rating = 0, onRatingChange }) => {
+const StarRating = ({ rating = 0, onRatingChange = () => {} }) => {
   const [hoverRating, setHoverRating] = useState(0);
-  const handleClick = (index, event) => {
+  const getRatingFromMouseEvent = (index, event) => {
     const starWidth = event.target.offsetWidth;
     const clickPosition = event.nativeEvent.offsetX;
-    const newRating = clickPosition < starWidth / 2 ? index - 0.5 : index;
+    return clickPosition < starWidth / 2 ? index - 0.5 : index;
+  };
+
+  const handleMouseMove = (index, event) => {
+    setHoverRating(getRatingFromMouseEvent(index, event));
+  };
+
+  const handleMouseLeave = () => {
+    setHoverRating(0); 
+  };
+  
+  const handleClick = (index, event) => {
+    const newRating = getRatingFromMouseEvent(index, event);
     onRatingChange(newRating);
+    setHoverRating(newRating); 
   };
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center" onMouseLeave={handleMouseLeave}>
       {[...Array(5)].map((_, index) => {
         const starValue = index + 1;
         const displayRating = hoverRating || rating;
@@ -21,13 +34,13 @@ const StarRating = ({ rating = 0, onRatingChange }) => {
         } else if (starValue === Math.ceil(displayRating) && !Number.isInteger(displayRating)) {
           starClass = 'is-half'; 
         }
+
         return (
           <i
             key={starValue}
             className={`nes-icon is-large star ${starClass}`}
             onClick={(e) => handleClick(starValue, e)}
-            onMouseEnter={() => setHoverRating(starValue)}
-            onMouseLeave={() => setHoverRating(0)}
+            onMouseMove={(e) => handleMouseMove(starValue, e)}
             style={{ cursor: 'pointer' }}
           />
         );

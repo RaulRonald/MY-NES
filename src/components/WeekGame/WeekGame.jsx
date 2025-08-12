@@ -6,11 +6,11 @@ const WeekGame = ({ name, date, img }) => {
   const [gameRating, setGameRating] = useState(0);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center nes-container is-centered bg-gray-800 p-4 m-4">
-      <div className='flex flex-col'>
-      <p className="title font-press-start bg-white">Game of The Week</p>
+    <div className="flex flex-col md:flex-row items-center justify-center nes-container  bg-gray-800 p-1 m-2">
+      <div className='flex flex-col justify-items-center justify-center'>
+      <p className="justify-items-center title font-press-start bg-white">Entitie Of The Week</p>
 
-      <div className="m-5">
+      <div className="m-5 justify-items-center">
         <GameCard
           name={name}
           img={img}

@@ -1,8 +1,16 @@
 const GameCard = ({ name, img }) => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <img src={img} alt={name} className="w-16 h-16" />
-      <h2 className="text-center font-press-start mt-2 whitespace-pre-wrap">{name}</h2>
+    <div className="w-28 h-36 flex flex-col items-center justify-center bg-gray-900 border-white border-4">
+      <img 
+        src={img} 
+        alt={name} 
+        className="w-6/12 h-6/12" 
+      />
+      <h2 
+        className="font-press-start text-white text-xs whitespace-pre-wrap"
+      >
+        {name}  
+      </h2>
     </div>
   );
 };
