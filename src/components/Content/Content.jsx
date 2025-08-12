@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"; 
 import Slider from "../Slider/Slider";
 import WeekGame from "../WeekGame/WeekGame";
+import QuizSlider from "../Slider/QuizSlider";
+
 
 function getWeekNumber() {
   const today = new Date();
@@ -53,6 +55,7 @@ const Content = () => {
         />
       )}
       </div>
+      <QuizSlider></QuizSlider>
     </div>
   );
 };
