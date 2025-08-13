@@ -1,0 +1,12 @@
+{
+  "puzzles": [
+    {
+      "title": "Characters & Enemies",
+      "words": ["MARIO", "LUIGI", "BOWSER", "TOAD", "GOOMBA", "KOOPA", "PIRANHA"]
+    },
+    {
+      "title": "Items & Power-Ups",
+      "words": ["MUSHROOM", "FLOWER", "STARMAN", "COIN", "PIPE", "CASTLE", "BLOCK"]
+    }
+  ]
+}
